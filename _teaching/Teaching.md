@@ -4,13 +4,13 @@ collection: teaching
 ---
 
 ### Academic experience
-* Member of the Project Team “Dyadic Approach to the International Political Conflicts and Cooperation Problems Analysis” (Oct 2024-present)
+* Member of the Project Team “Dyadic Approach to the International Political Conflicts and Cooperation Problems Analysis” (Oct 2024-present)\
 _Higher School of Economics University_
 
-* Member of the Project Team “Study of the Economic Consequences of Revolutions Using Quasi-Experimental Methods” (Oct 2024-present)
+* Member of the Project Team “Study of the Economic Consequences of Revolutions Using Quasi-Experimental Methods” (Oct 2024-present)\
 _Higher School of Economics University_
 
-* Research Project Participant, Modern Revolutions: Factors, Mechanisms, Forecasts (Sep 2021-May 2022)
+* Research Project Participant, Modern Revolutions: Factors, Mechanisms, Forecasts (Sep 2021-May 2022)\
 _Higher School of Economics University_
 
 ### University teaching experience
@@ -27,8 +27,8 @@ _Higher School of Economics University_
 _Higher School of Economics University_
 
 ### Conferences
-* VIII International Conference of Young Scientists “Alliance of Social Sciences”. Presentation: Influence of Economic Sanctions on Political Destabilisation: a Cross-Country Perspective, HSE University, 2024.
-* III International Conference “Digital International Relations”, Section “Databases in the Study of International Relations: Design, Data Generation and Applications”, MGIMO University, 2024.
+* VIII International Conference of Young Scientists “Alliance of Social Sciences”. Presentation: Influence of Economic Sanctions on Political Destabilisation: a Cross-Country Perspective, HSE University, 2024
+* III International Conference “Digital International Relations”, Section “Databases in the Study of International Relations: Design, Data Generation and Applications”, MGIMO University, 2024
 
 ### Summer schools
 * Political Atlas of the Modern World 2.0, Summer Methodological School, MGIMO University and HSE University, Moscow, Russia (Jul 2023)
