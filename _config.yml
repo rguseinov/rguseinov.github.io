@@ -21,12 +21,12 @@ repository               : "academicpages/rguseinov.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  #avatar           : "profile.png"
+  avatar           : 
   name             : "Ruslan Guseinov"
   pronouns         : # example: "she/her"  
-  bio              : "Political Science BA student (HSE University, Moscow), Research Assistant at the Center for Stability and Risks Analysis"
+  bio              : "Political Science BA student, Research Assistant at the Center for Stability and Risks Analysis"
   location         : "Russia, Moscow"
-  employer         : "Higher School of Economics University"
+  employer         : "HSE University"
   uri              : # URL
   email            : "rigusseinov@gmail.com" 
 
