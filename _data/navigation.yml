@@ -14,5 +14,5 @@ main:
   - title: "CV"
     url: /files/CV.pdf
     
-  - title: "Data"
-    url: /data/
+  #- title: "Data"
+  #  url: /data/
