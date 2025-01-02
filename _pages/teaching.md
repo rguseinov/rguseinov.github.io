@@ -1,6 +1,7 @@
 ---
+layout: archive
+title: "Academic and teaching experience"
 permalink: /teaching/
-title: "Teaching"
 author_profile: true
 ---
 
