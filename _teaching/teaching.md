@@ -1,6 +1,5 @@
 ---
 title: "Academic and teaching experience"
-collection: teaching
 teaching: true
 ---
 
