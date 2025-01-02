@@ -1,6 +1,11 @@
-
-
-
+---
+permalink: /
+title: "Teaching"
+author_profile: true
+redirect_from: 
+  - /teaching/
+  - /teaching.html
+---
 
 ### Academic experience
 * Member of the Project Team “Dyadic Approach to the International Political Conflicts and Cooperation Problems Analysis” (Oct 2024-present)\
