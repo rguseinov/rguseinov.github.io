@@ -15,6 +15,6 @@ collection: publications
 * Guseinov, R. & Korotayev. A. (2025). _A Berlin Wall? A reconsideration of the revolutions and “maximalist campaigns” concepts_.
 * Guseinov, R. (2025). _Quasi-revolutionary protests in Armenia 2024_. 
 * Guseinov, R. (2025). _What Are Your Sources? A Quantitative Comparative Analysis of Main Revolutionary Episodes Datasets_.
-* 
+  
 # Other
 * Guseinov R. (2021) _Life in Azerbaijan’s Digital Autocracy: ‘They Want to be in Control of Everything’_ (OCCRP article translated to Russian for an independent Meydan.TV media outlet). [Link](https://www.meydan.tv/ru/article/zhizn-v-azerbajdzhanskoj-informacionnoj-avtokratii-oni-hotyat-kontrolirovat-vse/) 
