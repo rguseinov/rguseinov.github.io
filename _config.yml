@@ -21,7 +21,7 @@ repository               : "academicpages/rguseinov.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : 
+  avatar           : "images/profile_2.png"
   name             : "Ruslan Guseinov"
   pronouns         : # example: "she/her"  
   bio              : "Political Science BA student, Research Assistant at the Center for Stability and Risks Analysis"
