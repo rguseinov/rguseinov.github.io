@@ -5,7 +5,6 @@ title: "Publications"
 permalink: /publications/
 ---
 
-# List of publications
 ## Book Chapters
 * Guseinov, R. (2021). _Revolutionary and Quasi-Revolutionary Episodes in South Caucasus 2020-2021_. ISBN 978-5-7057-6066-4.
 
