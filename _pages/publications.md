@@ -6,7 +6,7 @@ permalink: /publications/
 ---
 
 ## Chapters
-* Guseinov, R. (2025). _ 2024 Protests in Armenia 2024_. DOI: https://doi.org/10.30884/iis/2025.02.05
+* Guseinov, R. (2025). _2024 Protests in Armenia 2024_. DOI: https://doi.org/10.30884/iis/2025.02.05
 * Guseinov, R. (2021). _Revolutionary and Quasi-Revolutionary Episodes in South Caucasus 2020-2021_. ISBN: 978-5-7057-6066-4.
 
 ## Conference Presentations
