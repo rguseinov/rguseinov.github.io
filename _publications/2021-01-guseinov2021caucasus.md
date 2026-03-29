@@ -2,6 +2,7 @@
 title: "Revolutionary and Quasi-Revolutionary Episodes in South Caucasus 2020--2021"
 collection: publications
 permalink: /publication/guseinov2021caucasus
+layout: publication
 excerpt: "The article provides a characterisation of revolutionary events in the South Caucasus in 2020 and 2021. Revolutionary destabilisation affected two countries in the region — Armenia (2020–2021) and Geo..."
 date: 2021-01-01
 venue: "Sistemnyj monitoring global'nykh i regional'nykh riskov [Systemic Monitoring of Global and Regional Risks]"
