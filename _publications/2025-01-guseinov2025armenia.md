@@ -1,5 +1,5 @@
 ---
-title: "Protests in Armenia in 2024"
+title: "2024 Protests in Armenia"
 collection: publications
 permalink: /publication/guseinov2025armenia
 layout: publication
