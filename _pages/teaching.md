@@ -103,7 +103,7 @@ author_profile: true
     <div class="card-icon">🧪</div>
     <div class="card-title">Research Assistant, Center for Stability and Risks Analysis</div>
     <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge green">Ongoing</span>
+    <span class="card-badge green">Apr 2024 - Jun 2025</span>
   </div>
 
   <div class="card">
