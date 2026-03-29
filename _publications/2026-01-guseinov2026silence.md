@@ -2,6 +2,7 @@
 title: "The Price of Silence: Fiscal Capacity and Mass Anti-Regime Mobilization in Autocracies"
 collection: publications
 permalink: /publication/guseinov2026silence
+layout: publication
 excerpt: "Why do some autocracies experience violent anti-regime mobilization while others remain quiescent? The literature does not provide sufficient theoretical arguments and empirical evidence linking fisca..."
 date: 2026-01-01
 venue: ""
