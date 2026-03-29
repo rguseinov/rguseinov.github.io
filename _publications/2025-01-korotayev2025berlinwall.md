@@ -2,6 +2,7 @@
 title: "Could and Should the Berlin Wall Between the Studies of Revolutions and `Maximalist Campaigns' Be Destroyed? And if Yes, What Are the Implications?"
 collection: publications
 permalink: /publication/korotayev2025berlinwall
+layout: publication
 excerpt: "In recent years, there has been an emergence of a sort of a “Berlin Wall” between the studies of revolutions and “maximalist campaigns”. Though the researchers of revolutions and “maximalist campaigns..."
 date: 2025-01-01
 venue: ""
