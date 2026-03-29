@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="page__inner-wrap">
+
+    <header>
+      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+
+      {% if page.authors %}
+      <p style="color:#555; margin:4px 0;">{{ page.authors }}</p>
+      {% endif %}
+
+      <p style="font-style:italic; margin:4px 0; color:#666;">
+        {% if page.venue and page.venue != "" %}{{ page.venue }},{% endif %}
+        {{ page.date | date: "%Y" }}
+        {% if page.pub_type %}
+          &nbsp;·&nbsp;
+          <span style="background:#f0f0f0; padding:1px 8px;
+                       border-radius:3px; font-style:normal; font-size:0.85em;">
+            {{ page.pub_type }}
+          </span>
+        {% endif %}
+      </p>
+
+      <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;">
+        {% if page.paperurl %}
+        <a href="{{ page.paperurl }}" target="_blank"
+           style="font-size:0.85em; padding:4px 12px; background:#2a76b8;
+                  color:#fff; border-radius:4px; text-decoration:none;">
+          📄 PDF
+        </a>
+        {% endif %}
+        {% if page.arxiv %}
+        <a href="https://arxiv.org/abs/{{ page.arxiv }}" target="_blank"
+           style="font-size:0.85em; padding:4px 12px; background:#b31b1b;
+                  color:#fff; border-radius:4px; text-decoration:none;">
+          arXiv
+        </a>
+        {% endif %}
+        {% if page.doi %}
+        <a href="https://doi.org/{{ page.doi }}" target="_blank"
+           style="font-size:0.85em; padding:4px 12px; background:#555;
+                  color:#fff; border-radius:4px; text-decoration:none;">
+          DOI
+        </a>
+        {% endif %}
+        {% if page.codeurl %}
+        <a href="{{ page.codeurl }}" target="_blank"
+           style="font-size:0.85em; padding:4px 12px; background:#333;
+                  color:#fff; border-radius:4px; text-decoration:none;">
+          💻 Code
+        </a>
+        {% endif %}
+        {% if page.website %}
+        <a href="{{ page.website }}" target="_blank"
+           style="font-size:0.85em; padding:4px 12px; background:#4a8;
+                  color:#fff; border-radius:4px; text-decoration:none;">
+          🌐 Website
+        </a>
+        {% endif %}
+      </div>
+    </header>
+
+    <section class="page__content" itemprop="text">
+
+      {% if page.abstract %}
+      <h2>Abstract</h2>
+      <p style="line-height:1.7; color:#333;">{{ page.abstract }}</p>
+      {% endif %}
+
+      {% if page.preview %}
+      <div style="margin-top:2em; text-align:center;">
+        <img src="/images/publications/{{ page.preview }}"
+             alt="{{ page.title }}"
+             style="max-width:100%; border-radius:6px;
+                    border:1px solid #ddd; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+      </div>
+      {% endif %}
+
+      {{ content }}
+
+    </section>
+
+  </div>
+</div>
