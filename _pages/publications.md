@@ -7,11 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign articles = site.publications | where: "pub_type", "journal" | sort: "date" | reverse %}
-{% assign preprints = site.publications | where: "pub_type", "preprint" | sort: "date" | reverse %}
-{% assign chapters = site.publications | where: "pub_type", "book chapter" | sort: "date" | reverse %}
-{% assign conferences = site.publications | where: "pub_type", "conference" | sort: "date" | reverse %}
-{% assign other = site.publications | where: "pub_type", "other" | sort: "date" | reverse %}
+{% assign preprints    = site.publications | where: "pub_type", "preprint"      | sort: "date" | reverse %}
+{% assign working      = site.publications | where: "pub_type", "working paper" | sort: "date" | reverse %}
+{% assign articles     = site.publications | where: "pub_type", "journal"       | sort: "date" | reverse %}
+{% assign chapters     = site.publications | where: "pub_type", "book chapter"  | sort: "date" | reverse %}
+{% assign conferences  = site.publications | where: "pub_type", "conference"    | sort: "date" | reverse %}
+{% assign other        = site.publications | where: "pub_type", "other"         | sort: "date" | reverse %}
 
 {% if preprints.size > 0 %}
 ## Working Papers & Preprints
@@ -46,4 +47,14 @@ author_profile: true
 {% for post in other %}
   {% include publication-single.html %}
 {% endfor %}
+{% endif %}
+
+{% if preprints.size > 0 %}
+## Preprints
+{% for post in preprints %}{% include publication-single.html %}{% endfor %}
+{% endif %}
+
+{% if working.size > 0 %}
+## Working Papers
+{% for post in working %}{% include publication-single.html %}{% endfor %}
 {% endif %}
