@@ -6,9 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I am a Political Science MA student at the University of Mannheim (Germany) and a Research Assistant at GESIS - Leibniz Institute for the Social Sciences, Computational Social Science Department. 
 
-Currently I am studying as a Political Science MA student at the University of Mannheim (Germany). Since Nov 2025, I am working as a Research Assistant at GESIS - Leibniz Institute for the Social Sciences, Computational Social Science Department under the supervision of Dr. Frank Mangold. I have also worked as a Research Assistant at the Center for Stability and Risks Analysis (HSE University, Moscow), a research center which conducts systemic monitoring of socio-political transformation in a regional and global perspective, under the supervision of Dr. Andrey Korotayev.
+I previously worked as a Research Assistant at the Center for Stability and Risks Analysis in Moscow, a research center specializing in the systemic analysis of socio-political transformations from both regional and global perspectives.
 
-Besides, I had experience of working as a social studies, history and political science teacher for school students at different schools and organizations (including CPM Private School, one of the best schools in Russia).
+Besides, I have taught social studies, history and political science teacher at several educational institutions, including The CTE School in Moscow, one of Russia’s leading secondary schools.
 
-My research interests lie in the intersection of comparative politics of authoritarian regimes, social and mass movements, applying advanced quantitative methods in political science and causal inference.
+My research interests lie at the intersection of comparative politics of authoritarian regimes, social and mass movements, applying advanced quantitative methods in political science and causal inference. My work has been published in, or is forthcoming at, _Defence and Peace Economics_ and _Political Studies Review_.
