@@ -12,7 +12,7 @@ author_profile: true
   margin: 2em 0 1em 0;
   padding-bottom: 6px;
   border-bottom: 2px solid #2a76b8;
-  color: #333;
+  color: var(--global-text-color);
 }
 .cards-grid {
   display: grid;
@@ -21,10 +21,10 @@ author_profile: true
   margin-bottom: 2em;
 }
 .card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--global-border-color);
   border-radius: 8px;
   padding: 16px 18px;
-  background: #fff;
+  background: var(--global-bg-color);
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   transition: box-shadow 0.2s;
 }
@@ -38,13 +38,13 @@ author_profile: true
 .card-title {
   font-weight: 600;
   font-size: 0.95em;
-  color: #222;
+  color: var(--global-text-color);
   margin-bottom: 6px;
   line-height: 1.4;
 }
 .card-org {
   font-size: 0.82em;
-  color: #666;
+  color: var(--global-text-color);
   font-style: italic;
   margin-bottom: 8px;
 }

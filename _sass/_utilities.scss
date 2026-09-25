@@ -227,12 +227,6 @@ body:hover .visually-hidden button {
     color: $foursquare-color;
   }
 
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    color: $github-color;
-  }
-
   .fa-google-plus,
   .fa-google-plus-square {
     color: $google-plus-color;
@@ -327,7 +321,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: var(--global-masthead-link-color);
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -339,7 +333,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: var(--global-masthead-link-color);
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -446,7 +440,7 @@ body:hover .visually-hidden button {
   min-height: 0;
   z-index: 9999;
   background: #fff;
-  border: 1px solid $border-color;
+  border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -461,7 +455,7 @@ body:hover .visually-hidden button {
 
   &__actions {
     padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid var(--global-border-color);
   }
 }
 
@@ -471,12 +465,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: var(--global-text-color-light);
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: var(--global-text-color-light);
 
   ol, li, p {
     margin-bottom: 0;
@@ -485,7 +479,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: var(--global-text-color-light);
   text-decoration: none;
 
   &:hover {

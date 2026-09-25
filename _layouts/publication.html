@@ -11,15 +11,15 @@ layout: default
       <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
 
       {% if page.authors %}
-      <p style="color:#555; margin:4px 0;">{{ page.authors }}</p>
+      <p style="color:var(--global-text-color); margin:4px 0;">{{ page.authors }}</p>
       {% endif %}
 
-      <p style="font-style:italic; margin:4px 0; color:#666;">
+      <p style="font-style:italic; margin:4px 0; color:var(--global-text-color);">
         {% if page.venue and page.venue != "" %}{{ page.venue }},{% endif %}
         {{ page.date | date: "%Y" }}
         {% if page.pub_type %}
           &nbsp;·&nbsp;
-          <span style="background:#f0f0f0; padding:1px 8px;
+          <span style="background:var(--global-code-background-color); color:var(--global-code-text-color); padding:1px 8px;
                        border-radius:3px; font-style:normal; font-size:0.85em;">
             {{ page.pub_type }}
           </span>
@@ -69,7 +69,7 @@ layout: default
 
       {% if page.abstract %}
       <h2>Abstract</h2>
-      <p style="line-height:1.7; color:#333;">{{ page.abstract }}</p>
+      <p style="line-height:1.7; color:var(--global-text-color);">{{ page.abstract }}</p>
       {% endif %}
 
       {% if page.preview %}
@@ -77,7 +77,7 @@ layout: default
         <img src="/images/publications/{{ page.preview }}"
              alt="{{ page.title }}"
              style="max-width:100%; border-radius:6px;
-                    border:1px solid #ddd; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                    border:1px solid var(--global-border-color); box-shadow:0 2px 8px rgba(0,0,0,0.1);">
       </div>
       {% endif %}
 
