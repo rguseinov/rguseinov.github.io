@@ -63,54 +63,80 @@ author_profile: true
 }
 </style>
 
-<div class="section-title">🔬 Academic Experience</div>
+<div class="section-title">🏛️ Academic Employment</div>
 <div class="cards-grid">
 
   <div class="card">
+    <div class="card-icon">🗺️</div>
+    <div class="card-title">Research Assistant, Chair of Analytical International Politics</div>
+    <div class="card-org">University of Mannheim</div>
+    <span class="card-badge">2026 – present</span>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">💻</div>
+    <div class="card-title">Research Assistant, Computational Social Science Department</div>
+    <div class="card-org">GESIS – Leibniz Institute for the Social Sciences</div>
+    <span class="card-badge">2025 – 2026</span>
+  </div>
+
+  <div class="card">
     <div class="card-icon">📊</div>
-    <div class="card-title">Member of the Project Team "Dyadic Approach to the International Political Conflicts and Cooperation Problems Analysis"</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge">Oct 2024 – Jun 2025</span>
-  </div>
-
-  <div class="card">
-    <div class="card-icon">📈</div>
-    <div class="card-title">Member of the Project Team "Study of the Economic Consequences of Revolutions Using Quasi-Experimental Methods"</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge">Oct 2024 – Jun 2025</span>
-  </div>
-
-  <div class="card">
-    <div class="card-icon">🔍</div>
-    <div class="card-title">Research Project Participant, Modern Revolutions: Factors, Mechanisms, Forecasts</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge">Sep 2021 – May 2022</span>
+    <div class="card-title">Research Assistant, Center for Stability and Risks Analysis</div>
+    <div class="card-org">HSE University</div>
+    <span class="card-badge">2024 – 2025</span>
   </div>
 
 </div>
 
-<div class="section-title">🎓 University Teaching Experience</div>
+<div class="section-title">🔬 Research Projects and Working Groups</div>
+<div class="cards-grid">
+
+  <div class="card">
+    <div class="card-icon">📈</div>
+    <div class="card-title">Working Group Member, "Study of the Economic Consequences of Revolutions Using Quasi-Experimental Methods"</div>
+    <div class="card-org">HSE University, Center for Stability and Risks Analysis</div>
+    <span class="card-badge">2024 – 2025</span>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🌐</div>
+    <div class="card-title">Working Group Member, "Dyadic Approach to the International Political Conflicts and Cooperation Problems Analysis"</div>
+    <div class="card-org">HSE University</div>
+    <span class="card-badge">2024 – 2025</span>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🔍</div>
+    <div class="card-title">Researcher, Research Project "Modern Revolutions: Factors, Mechanisms, Forecasts"</div>
+    <div class="card-org">HSE University, Center for Stability and Risks Analysis</div>
+    <span class="card-badge">2021 – 2022, 2024 – 2025</span>
+  </div>
+
+</div>
+
+<div class="section-title">🎓 HSE University Teaching</div>
 <div class="cards-grid">
 
   <div class="card">
     <div class="card-icon">📉</div>
     <div class="card-title">Teaching Assistant, Data Analysis</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge green">Sep – Dec 2024</span>
-  </div>
-
-  <div class="card">
-    <div class="card-icon">🧪</div>
-    <div class="card-title">Research Assistant, Center for Stability and Risks Analysis</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge green">Apr 2024 - Jun 2025</span>
+    <div class="card-org">HSE University</div>
+    <span class="card-badge green">2024</span>
   </div>
 
   <div class="card">
     <div class="card-icon">🐍</div>
     <div class="card-title">Teaching Assistant, Introduction to Python</div>
-    <div class="card-org">Higher School of Economics University</div>
-    <span class="card-badge green">Jan – Jun 2024</span>
+    <div class="card-org">HSE University</div>
+    <span class="card-badge green">2024</span>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🎲</div>
+    <div class="card-title">Teaching Assistant, Introduction to Probability Theory and Mathematical Statistics</div>
+    <div class="card-org">HSE University</div>
+    <span class="card-badge green">2023</span>
   </div>
 
 </div>
