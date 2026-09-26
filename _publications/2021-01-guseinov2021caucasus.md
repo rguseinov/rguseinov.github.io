@@ -1,5 +1,5 @@
 ---
-title: "Revolutionary and Quasi-Revolutionary Episodes in South Caucasus 2020—2021"
+title: "Revolutionary and Quasi-Revolutionary Episodes in the South Caucasus (2020–2021)"
 collection: publications
 permalink: /publication/guseinov2021caucasus
 layout: publication

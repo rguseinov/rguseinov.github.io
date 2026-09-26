@@ -7,25 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign preprints   = site.publications | where: "pub_type", "preprint"      | sort: "date" | reverse %}
-{% assign working     = site.publications | where: "pub_type", "working paper" | sort: "date" | reverse %}
 {% assign articles    = site.publications | where: "pub_type", "journal"       | sort: "date" | reverse %}
 {% assign chapters    = site.publications | where: "pub_type", "book chapter"  | sort: "date" | reverse %}
-{% assign conferences = site.publications | where: "pub_type", "conference"    | sort: "date" | reverse %}
-{% assign other       = site.publications | where: "pub_type", "other"         | sort: "date" | reverse %}
-
-{% if preprints.size > 0 %}
-## Preprints
-{% for post in preprints %}{% include publication-single.html %}{% endfor %}
-{% endif %}
-
-{% if working.size > 0 %}
-## Working Papers
-{% for post in working %}{% include publication-single.html %}{% endfor %}
-{% endif %}
+{% assign review      = site.publications | where: "pub_type", "under review"  | sort: "date" | reverse %}
+{% assign working     = site.publications | where: "pub_type", "working paper" | sort: "date" | reverse %}
+{% assign progress    = site.publications | where: "pub_type", "in progress"   | sort: "date" | reverse %}
 
 {% if articles.size > 0 %}
-## Journal Articles
+## Peer-reviewed Articles
 {% for post in articles %}{% include publication-single.html %}{% endfor %}
 {% endif %}
 
@@ -34,12 +23,17 @@ author_profile: true
 {% for post in chapters %}{% include publication-single.html %}{% endfor %}
 {% endif %}
 
-{% if conferences.size > 0 %}
-## Talks, Conferences and Presentations
-{% for post in conferences %}{% include publication-single.html %}{% endfor %}
+{% if review.size > 0 %}
+## Manuscripts Under Review
+{% for post in review %}{% include publication-single.html %}{% endfor %}
 {% endif %}
 
-{% if other.size > 0 %}
-## Other
-{% for post in other %}{% include publication-single.html %}{% endfor %}
+{% if working.size > 0 %}
+## Working Papers
+{% for post in working %}{% include publication-single.html %}{% endfor %}
+{% endif %}
+
+{% if progress.size > 0 %}
+## Work in Progress
+{% for post in progress %}{% include publication-single.html %}{% endfor %}
 {% endif %}
