@@ -4,7 +4,10 @@ layout: default
 
 {% include base_path %}
 
-<div itemscope itemtype="http://schema.org/CreativeWork">
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
   <div class="page__inner-wrap">
 
     <header>
@@ -86,4 +89,5 @@ layout: default
     </section>
 
   </div>
+  </article>
 </div>
